@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>1.[GET]Form Input Value and Send</title>
+    <title>4.[POST]Form Input Value and Send</title>
 </head>
 <body>
-    <h2>1.[GET]Form Input Value and Send</h2>
-    <form action="resultGET.php" method="get">
-        <input type="hidden" name="page" value="1">
+    <h2>4.[POST]Form Input Value and Send</h2>
+    <form action="resultPOST.php" method="POST">
+        <input type="hidden" name="page" value="4">
         <input type="radio" name="preName" value="Mr." checked>Mr. <input type="radio" name="preName" value="Miss ">Miss <input type="radio" name="preName" value="Ms.">Ms 
         <br>
         <input type="text" name="fName" placeholder="Name">
