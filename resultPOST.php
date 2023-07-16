@@ -11,7 +11,7 @@
     <h2>Result</h2>
     <?php
     $page = $_POST['page'];
-    // 1
+    // 4
     if ($page == '4') {
         $preName = $_POST['preName'];
         $fName = $_POST['fName'];
@@ -23,6 +23,29 @@
         <h3>Hello <?php echo $preName . $fName . ' ' . $lName ?></h3>
         <h3>Your age : <?php echo date("Y") - $year . ' ปี' ?> </h3>
         <h3>Email : <?php echo $email ?></h3>
+    <?php
+    }
+    
+    // 5
+    if ($page == '5') {
+        $num1 = $_POST['num1'];
+        $num2 = $_POST['num2'];
+        $sum = $num1 - $num2;
+        $op = $_POST['op'];
+    ?> 
+        <p><?php echo $num1 . $op . $num2 . ' = ' . $sum ?></p>
+    <?php
+    }
+    ?>
+    <?php
+    // 6
+    if ($page == '6') {
+        $num1 = $_POST['num1'];
+        $num2 = $_POST['num2'];
+        $sum = $num1 * $num2;
+        $op = $_POST['op'];
+    ?> 
+        <p><?php echo $num1 . $op . $num2 . ' = ' . number_format($sum,4) ?></p>
     <?php
     }
     ?>
