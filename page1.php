@@ -7,7 +7,7 @@
 </head>
 <body>
     <h2>1.[GET]Form Input Value and Send</h2>
-    <form action="result.php" method="get">
+    <form action="resultGET.php" method="get">
         <input type="hidden" name="page" value="1">
         <input type="radio" name="preName" value="Mr." selected>Mr. <input type="radio" name="preName" value="Miss ">Miss <input type="radio" name="preName" value="Ms.">Ms 
         <br>

@@ -9,7 +9,7 @@
 
 <body>
     <h2>3.[GET]Form Input 2 Number Send then Divide(/) and Show summary format number to 2 digits</h2>
-    <form action="result.php" method="get">
+    <form action="resultGET.php" method="get">
         <input type="hidden" name="page" value="3">
         <input type="text" name="num1" placeholder="Number 1 Value">
         <label for="">/</label>
